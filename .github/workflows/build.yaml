@@ -178,7 +178,7 @@ jobs:
 
   build-macos-intel:
     needs: [ version ]
-    runs-on: macos-11
+    runs-on: macos-10
     steps:
       - name: Checkout
         uses: actions/checkout@v3
